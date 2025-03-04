@@ -48,8 +48,10 @@ const Works = ({ isDarkMode }) => {
           return (
             <motion.div
               key={index}
-              className="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
-              style={{ backgroundImage: `url(${project.bgImage})` }}
+              className="aspect-square bg-cover border rounded-lg relative cursor-pointer group"
+              style={{
+                backgroundImage: `url(${project.bgImage})`,
+              }}
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
             >
@@ -70,22 +72,6 @@ const Works = ({ isDarkMode }) => {
           );
         })}
       </motion.div>
-      <motion.a
-        href=""
-        className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full px-10 py-3 mx-auto my-20 hover:bg-lightHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover"
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ duration: 0.5, delay: 1.1 }}
-      >
-        Show More...{" "}
-        <Image
-          src={
-            isDarkMode ? assets.right_arrow_bold_dark : assets.right_arrow_bold
-          }
-          alt="right arrow"
-          className="w-4"
-        />{" "}
-      </motion.a>
     </motion.div>
   );
 };

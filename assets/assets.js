@@ -86,29 +86,29 @@ export const assets = {
   right_arrow_bold,
   right_arrow_bold_dark,
   cybersecurity,
-  my_pic
+  my_pic,
 };
 
 export const workData = [
   {
-    title: "Food Delivery App",
-    description: "Food Delivery",
-    bgImage: "/foodDel.png",
+    title: "Weather Dashboard",
+    description: "Weather Dashboard",
+    bgImage: './weather.png',
   },
   {
-    title: "Quiz App",
-    description: "Interactive Quiz",
-    bgImage: "/quizProject.png",
+    title: "Title",
+    description: "Description",
+    bgImage: "",
   },
   {
-    title: "Photography site",
-    description: "Web Design",
-    bgImage: "/work-3.png",
+    title: "Title",
+    description: "Description",
+    bgImage: "",
   },
   {
-    title: "UI/UX designing",
-    description: "UI/UX Design",
-    bgImage: "/work-4.png",
+    title: "Title",
+    description: "Description",
+    bgImage: "",
   },
 ];
 
