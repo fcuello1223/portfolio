@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "motion/react";
 
-const Contact = ({ isDarkMode }) => {
+const Contact = () => {
   const [result, setResult] = useState("");
 
   const onSubmit = async (event) => {

@@ -4,7 +4,7 @@ import { motion } from 'motion/react';
 import { assets, workData } from "@/assets/assets";
 import Image from "next/image";
 
-const Works = ({ isDarkMode }) => {
+const Works = () => {
   return (
     <motion.div
       id="works"

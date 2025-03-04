@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 
 import { serviceData } from "@/assets/assets";
 
-const Services = ({ isDarkMode }) => {
+const Services = () => {
   return (
     <motion.div
       id="services"
