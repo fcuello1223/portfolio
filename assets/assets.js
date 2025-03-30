@@ -91,14 +91,14 @@ export const assets = {
 
 export const workData = [
   {
-    title: "Weather Dashboard",
+    title: "Dashboard",
     description: "Weather Dashboard",
     bgImage: './weather.png',
   },
   {
-    title: "Title",
-    description: "Description",
-    bgImage: "",
+    title: "Frank Social",
+    description: "Mini Social Media App",
+    bgImage: "./FrankSocial.png",
   },
   {
     title: "Title",
@@ -146,19 +146,19 @@ export const infoList = [
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
     title: "Languages",
-    description: "HTML, CSS, JavaScript React Js, Next Js",
+    description: "HTML, CSS, JavaScript, ReactJS, NextJS, Python, NodeJS, Java",
   },
   {
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
     title: "Education",
-    description: "B.Tech in Computer Science",
+    description: "Master of Science, Computer Science Florida International University\n2025",
   },
   {
     icon: assets.project_icon,
     iconDark: assets.project_icon_dark,
-    title: "Projects",
-    description: "Built more than 5 projects",
+    title: "Other Skills",
+    description: "Git/GitHub, MySQL, PostgreSQL, MongoDB, Microsoft Office (Word/Excel/PowerPoint)",
   },
 ];
 
