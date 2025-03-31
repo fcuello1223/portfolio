@@ -7,10 +7,10 @@ import project_icon from "./project-icon.png";
 import project_icon_dark from "./project-icon-dark.png";
 import vscode from "./vscode.png";
 import database from "./database.png";
-import databaseStorage from './database-storage.png';
+import databaseStorage from "./database-storage.png";
 import firebase from "./firebase.png";
 import figma from "./figma.png";
-import frontend from './front-end-programming.png';
+import frontend from "./front-end-programming.png";
 import git from "./git.png";
 import mongodb from "./mongodb.png";
 import right_arrow_white from "./right-arrow-white.png";
@@ -28,7 +28,7 @@ import arrow_icon from "./arrow-icon.png";
 import arrow_icon_dark from "./arrow-icon-dark.png";
 import menu_black from "./menu-black.png";
 import menu_white from "./menu-white.png";
-import protection from './protection.png';
+import protection from "./protection.png";
 import close_black from "./close-black.png";
 import close_white from "./close-white.png";
 import web_icon from "./web-icon.png";
@@ -39,9 +39,8 @@ import right_arrow from "./right-arrow.png";
 import send_icon from "./send-icon.png";
 import right_arrow_bold from "./right-arrow-bold.png";
 import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
-import cybersecurity from './cybersecurity.svg';
-import my_pic from './my_pic.jpg';
-
+import cybersecurity from "./cybersecurity.svg";
+import my_pic from "./my_pic.jpg";
 
 export const assets = {
   user_image,
@@ -93,22 +92,20 @@ export const workData = [
   {
     title: "Dashboard",
     description: "Weather Dashboard",
-    bgImage: './weather.png',
+    bgImage: "./weather.png",
+    site: "#",
   },
   {
     title: "Frank Social",
     description: "Mini Social Media App",
     bgImage: "./FrankSocial.png",
+    site: "https://frank-social.vercel.app/",
   },
   {
     title: "Title",
     description: "Description",
     bgImage: "",
-  },
-  {
-    title: "Title",
-    description: "Description",
-    bgImage: "",
+    site: "#",
   },
 ];
 
@@ -122,8 +119,7 @@ export const serviceData = [
   {
     icon: assets.database,
     title: "Backend",
-    description:
-      "Efficient server setup to communicate with database",
+    description: "Efficient server setup to communicate with database",
     link: "",
   },
   {
@@ -152,13 +148,15 @@ export const infoList = [
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
     title: "Education",
-    description: "Master of Science, Computer Science Florida International University\n2025",
+    description:
+      "Master of Science, Computer Science Florida International University\n2025",
   },
   {
     icon: assets.project_icon,
     iconDark: assets.project_icon_dark,
     title: "Other Skills",
-    description: "Git/GitHub, MySQL, PostgreSQL, MongoDB, Microsoft Office (Word/Excel/PowerPoint)",
+    description:
+      "Git/GitHub, MySQL, PostgreSQL, MongoDB, Microsoft Office (Word/Excel/PowerPoint)",
   },
 ];
 
