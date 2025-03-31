@@ -101,12 +101,6 @@ export const workData = [
     bgImage: "./FrankSocial.png",
     site: "https://frank-social.vercel.app/",
   },
-  {
-    title: "Title",
-    description: "Description",
-    bgImage: "",
-    site: "#",
-  },
 ];
 
 export const serviceData = [
