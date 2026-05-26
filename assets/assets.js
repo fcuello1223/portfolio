@@ -96,10 +96,10 @@ export const workData = [
     site: "#",
   },
   {
-    title: "Frank Social",
-    description: "Mini Social Media App",
-    bgImage: "./FrankSocial.png",
-    site: "https://frank-social.vercel.app/",
+    title: "AI Nutrition/Fitness",
+    description: "Personal AI Nutrition/Fitness Platform",
+    bgImage: "./AI_Fitness.png",
+    site: "https://fitness-tracker-weld-nu.vercel.app/",
   },
 ];
 
